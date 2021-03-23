@@ -1,0 +1,36 @@
+main {
+    width: 700px;
+    height: 700px;
+    background: lightblue;
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    margin: auto;
+}   
+
+.middle {
+    display: grid;
+    grid-template-rows: 75px 1fr;;
+}   
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.left {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.center {
+    display: grid;
+    grid-template-rows: 40% 1fr;
+}
+
+.right {
+    display: grid;
+}
+
+* {
+    border: 1px solid red
+
+}
